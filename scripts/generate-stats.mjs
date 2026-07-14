@@ -58,9 +58,11 @@ const stats = [
   { value: String(calendar.totalContributions), label: "CONTRIBUTIONS · 12 MO" },
 ]
 
+// Transparent background: these sit directly on GitHub's page, so the type uses
+// GitHub's own foreground colors rather than a competing filled panel.
 const THEMES = {
-  light: { bg: "#E0D7D7", value: "#2A1F1F", label: "#6B5B5B", accent: "#A65D4E", rule: "#8A7A7A" },
-  dark: { bg: "#312424", value: "#EDE6E6", label: "#B7A6A6", accent: "#C87B68", rule: "#A5928F" },
+  light: { value: "#1f2328", label: "#59636e" },
+  dark: { value: "#e6edf3", label: "#9198a1" },
 }
 
 const SERIF =
@@ -70,25 +72,15 @@ const SANS = "'Helvetica Neue',Arial,sans-serif"
 const render = (t) => {
   const columns = stats
     .map((s, i) => {
-      const x = 1000 * ((i + 0.5) / 3)
+      const x = 4 + i * 336
       return `
-  <text x="${x}" y="78" text-anchor="middle" font-size="46" fill="${t.value}" font-family="${SERIF}">${s.value}</text>
-  <text x="${x}" y="106" text-anchor="middle" font-size="11" letter-spacing="3" fill="${t.label}" font-family="${SANS}">${s.label}</text>`
+  <text x="${x}" y="48" font-size="44" fill="${t.value}" font-family="${SERIF}">${s.value}</text>
+  <text x="${x}" y="72" font-size="11" letter-spacing="3" fill="${t.label}" font-family="${SANS}">${s.label}</text>`
     })
     .join("")
 
-  const dividers = [1000 / 3, (1000 / 3) * 2]
-    .map(
-      (x) =>
-        `<line x1="${x}" y1="40" x2="${x}" y2="100" stroke="${t.rule}" stroke-opacity="0.3" stroke-width="1"/>`
-    )
-    .join("\n  ")
-
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 150" width="1000" height="150" role="img" aria-label="Current streak ${current} days, longest streak ${longest} days, ${calendar.totalContributions} contributions in the last 12 months">
-  <rect width="1000" height="150" fill="${t.bg}"/>
-  <line x1="480" y1="28" x2="520" y2="28" stroke="${t.accent}" stroke-width="2"/>
-  ${dividers}${columns}
-  <text x="500" y="134" text-anchor="middle" font-size="9" letter-spacing="1.5" fill="${t.label}" fill-opacity="0.75" font-family="${SANS}">UPDATED ${today}</text>
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" width="1000" height="100" role="img" aria-label="Current streak ${current} days, longest streak ${longest} days, ${calendar.totalContributions} contributions in the last 12 months">${columns}
+  <text x="4" y="94" font-size="9" letter-spacing="1.5" fill="${t.label}" fill-opacity="0.7" font-family="${SANS}">UPDATED ${today}</text>
 </svg>
 `
 }

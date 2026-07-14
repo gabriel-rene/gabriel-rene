@@ -1,7 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 120" width="1000" height="120" role="img" aria-label="Also: designer, digital producer, low-code dev, educator on AI, cook, photographer">
-  <rect width="1000" height="120" fill="#E0D7D7"/>
-  <text x="500" y="40" text-anchor="middle" font-size="12" letter-spacing="4" fill="#8A7A7A" font-family="'Helvetica Neue',Arial,sans-serif">BEYOND THE JOB TITLE</text>
-  <text x="500" y="82" text-anchor="middle" font-size="24" fill="#2A1F1F" font-family="'Iowan Old Style','Palatino Linotype','Book Antiqua',Palatino,Georgia,'Times New Roman',serif" font-style="italic">
-    <tspan>designer</tspan><tspan dx="14" fill="#A65D4E" font-style="normal">·</tspan><tspan dx="14">digital producer</tspan><tspan dx="14" fill="#A65D4E" font-style="normal">·</tspan><tspan dx="14">low-code dev</tspan><tspan dx="14" fill="#A65D4E" font-style="normal">·</tspan><tspan dx="14">educator on AI</tspan><tspan dx="14" fill="#A65D4E" font-style="normal">·</tspan><tspan dx="14">cook</tspan><tspan dx="14" fill="#A65D4E" font-style="normal">·</tspan><tspan dx="14">photographer</tspan>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 85" width="1000" height="85" role="img" aria-label="Beyond the job title: designer, digital producer, low-code dev, educator on AI, cook, photographer">
+  <text x="4" y="24" font-size="11" letter-spacing="3.5" fill="#59636e" font-family="'Helvetica Neue',Arial,sans-serif">BEYOND THE JOB TITLE</text>
+  <text x="4" y="64" font-size="23" fill="#1f2328" font-style="italic" font-family="'Iowan Old Style','Palatino Linotype','Book Antiqua',Palatino,Georgia,'Times New Roman',serif">
+    <tspan>designer</tspan><tspan dx="12" fill="#59636e" font-style="normal">·</tspan><tspan dx="12">digital producer</tspan><tspan dx="12" fill="#59636e" font-style="normal">·</tspan><tspan dx="12">low-code dev</tspan><tspan dx="12" fill="#59636e" font-style="normal">·</tspan><tspan dx="12">educator on AI</tspan><tspan dx="12" fill="#59636e" font-style="normal">·</tspan><tspan dx="12">cook</tspan><tspan dx="12" fill="#59636e" font-style="normal">·</tspan><tspan dx="12">photographer</tspan>
   </text>
 </svg>

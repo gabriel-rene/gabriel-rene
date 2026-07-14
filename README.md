@@ -35,5 +35,3 @@ Speaker and educator on human-centered AI: universities, marketing and PR associ
 Building **margin-muse**, and looking for the next thing worth teaching or making. If you want to explore what we could do together, reach out.
 
 [Website](https://gabrielrodz.com) · [LinkedIn](https://www.linkedin.com/in/gabrielrene) · [X](https://x.com/gabrielrodz)
-
-<sub>🦦 The otter stays.</sub>
