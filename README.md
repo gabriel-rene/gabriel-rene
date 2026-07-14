@@ -32,5 +32,3 @@ Building **margin-muse**, and looking for the next thing worth teaching or makin
 [Website](https://gabrielrodz.com) · [LinkedIn](https://www.linkedin.com/in/gabrielrene) · [X](https://x.com/gabrielrodz)
 
 <sub>🦦 The otter stays.</sub>
-
-<!-- profile -->
