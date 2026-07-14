@@ -25,6 +25,11 @@ Speaker and educator on human-centered AI: universities, marketing and PR associ
 
 **[gaborene-com](https://github.com/gabriel-rene/gaborene-com):** my personal site. Next.js 16, Tailwind v4, and deliberately unfashionable typography. *Also a cook, a photographer, and a curious mind. The long version lives here.*
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg">
+  <img alt="Contribution stats: current streak, longest streak, and contributions in the last 12 months" src="./assets/stats-light.svg" width="100%">
+</picture>
+
 ### Currently
 
 Building **margin-muse**, and looking for the next thing worth teaching or making. If you want to explore what we could do together, reach out.
