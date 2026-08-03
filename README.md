@@ -3,7 +3,7 @@
   <img alt="Gabriel René Rodríguez-Rovira — Digital Strategy and Technology Executive" src="./assets/header-light.svg" width="100%">
 </picture>
 
-I run digital strategy and technology at [de la Cruz](https://github.com/DELACRUZ-GROUP), one of the largest agencies in the Caribbean. My teams win the awards (Cannes, Effie, El Ojo, Cúspide, SME), and I build the products behind them. Most executives stop at the deck. I open the editor.
+I run digital strategy and technology at [de la Cruz](https://github.com/DELACRUZ-GROUP), one of the largest agencies in the Caribbean. My teams win the awards (Cannes, Effie, El Ojo, Cúspide, SME), and I build the products behind them.
 
 ### Strategy
 Fifteen-plus years across advertising, digital production, political campaigns, and crisis work throughout the Americas. Two digital agencies bootstrapped, a 40-person department and a $2M budget run.
