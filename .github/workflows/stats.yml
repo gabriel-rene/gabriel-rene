@@ -27,7 +27,9 @@ jobs:
 
       - name: Regenerate stats SVGs
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # secrets.GITHUB_TOKEN lacks the read:user scope needed for a
+          # complete contributionsCollection, which broke the streak count.
+          GH_TOKEN: ${{ secrets.STATS_TOKEN }}
         run: node scripts/generate-stats.mjs
 
       - name: Commit if changed
